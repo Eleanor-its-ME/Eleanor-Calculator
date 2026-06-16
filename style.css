@@ -1,13 +1,12 @@
 /*font*/
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
 
 body{
 	background-color: #E8D6D7;
 	text-align: center;
 	font-size: 1.25em;
 	padding: 50px;
-	font-family: 'Sacramento', 'Sawarabi Mincho', cursive;
+	font-family: 'Sacramento', 'Kiwi Maru', cursive;
 	color: #444;
 }
 
