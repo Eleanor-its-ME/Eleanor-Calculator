@@ -8,10 +8,10 @@ body{
 	font-size: 1.25em;
 	padding: 50px;
 	font-family: 'Sacramento', 'Sawarabi Mincho', cursive;
+	color: #444;
 }
 
 h1{
-	color: #444;
 	font-size: 2em;
 }
 
@@ -27,4 +27,17 @@ h1{
 	border-radius: 10px; /* 角を丸くする魔法 */
 }
 
-button
+button{
+	background-color: #b47c7c;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: 0.3s;	
+	transform: translateY(-2px)
+}
+
+button:hover{
+	background-color: #9e6969;
+	
+}
