@@ -39,7 +39,7 @@ function Calculator(){
 		document.getElementById('result').innerText=resultText;
 		//履歴を追加
 		const historyList=document.getElementById('history');
-		const newHistory=document.getElementById('li');//新しいリスト項目
-		newHistory.innerText=resultText;//式と答えをリストに入れる
+		const newHistory=document.createElement('li');//新しいリスト項目(箱作り)
+		newHistory.innerText=resultText;//式と答えをリスト(箱)に入れる
 		hitoryList.prepend(newHistory);//上に最新の履歴を追加
 }
