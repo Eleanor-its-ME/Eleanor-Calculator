@@ -34,6 +34,12 @@ function Calculator(){
 			}
 			ans=num1/num2;
 		}
-		
-		document.getElementById('result').innerText="="+ans;
+		//計算結果表示
+		const resultText=num1+" "+symbol+" "+num2+" "+"="+ans;
+		document.getElementById('result').innerText=resultText;
+		//履歴を追加
+		const historyList=document.getElementById('history');
+		const newHistory=document.getElementById('li');//新しいリスト項目
+		newHistory.innerText=resultText;//式と答えをリストに入れる
+		hitoryList.prepend(newHistory);//上に最新の履歴を追加
 }
