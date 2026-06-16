@@ -10,6 +10,12 @@ body{
 	color: #444;
 }
 
+.kiwi-maru-regular {
+  font-family: "Kiwi Maru", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .top-design{
 	width: 100%;      /* 画面幅いっぱいに広げる */
     max-width: 600px; /* ただし最大でも600pxまでにする */
